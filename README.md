@@ -9,13 +9,13 @@ This app helps find potential customers using AI, score them based on ICP, and a
  
 An AI-powered pipeline that identifies high-quality enterprise leads, scores them using explainable criteria, and engages them with personalized outreach to drive responses.
 
-## 📌 Problem Statement
+##  Problem Statement
 
 P95.AI has a powerful product but lacks a systematic, data-driven approach to identifying and reaching the right enterprise buyers.
 
 This project solves that by building an intelligent lead qualification and outreach system using enriched data and AI-driven personalization.
 
-## 💡 Our Solution
+##  Our Solution
 
 We designed an end-to-end pipeline that:
 
@@ -25,11 +25,11 @@ We designed an end-to-end pipeline that:
 - Generates personalized outreach messages using AI
 - Implements A/B testing to optimize response rates
 
-## 🔄 System Architecture
+##  System Architecture
 
 Data Sources → Clay → Enrichment → Scoring → Outreach → A/B Testing → Insights
 
-## 🎯 Ideal Customer Profile (ICP)
+##  Ideal Customer Profile (ICP)
 
 - SaaS / Tech companies
 - 50–1000 employees
@@ -39,7 +39,7 @@ Data Sources → Clay → Enrichment → Scoring → Outreach → A/B Testing �
 
 This ensures we target companies with high likelihood of needing AI-driven optimization solutions.
 
-## 📊 Lead Scoring Model
+##  Lead Scoring Model
 
 We implemented an explainable scoring system based on:
 
@@ -49,11 +49,11 @@ We implemented an explainable scoring system based on:
 - Decision Maker Presence (15%)
 
 ### Classification:
-- 🔥 Hot (80–100)
-- 🌤 Warm (50–79)
-- ❄ Cold (<50)
+- Hot (80–100)
+- Warm (50–79)
+- Cold (<50)
 
-## 🧠 Explainable Insights
+##  Explainable Insights
 
 Each lead includes reasoning such as:
 
@@ -78,7 +78,7 @@ Each message includes:
 - Relevant pain points
 - Clear call-to-action
 
-## 🧪 A/B Testing Strategy
+##  A/B Testing Strategy
 
 For top 20 leads, we created two variants:
 
@@ -88,14 +88,14 @@ For top 20 leads, we created two variants:
 ### Example Hypothesis:
 Pain-based messaging may perform better for fast-scaling startups due to urgency.
 
-## ⚙️ Tech Stack
+##  Tech Stack
 
 – CLAY.AI - Data enrichment & lead management
 - Thinkroot – AI-powered outreach generation
 - Apollo / LinkedIn – Lead sourcing
 - Python / n8n – Automation
 
-## 📁 Repository Structure
+##  Repository Structure
 
 /data → Lead datasets (CSV)
 /prompts → AI prompts used
@@ -103,14 +103,14 @@ Pain-based messaging may perform better for fast-scaling startups due to urgency
 /outreach → Email & LinkedIn messages
 /docs → ICP + methodology
 
-## 📈 Results & Insights
+##  Results & Insights
 
 - 200+ enriched leads generated
 - High-quality segmentation achieved
 - Personalized outreach improved engagement relevance
 - A/B testing provided insights into messaging effectiveness
 
-## 🚀 Key Innovations
+##  Key Innovations
 
 - Explainable lead scoring
 - Insight-driven personalization
@@ -118,7 +118,7 @@ Pain-based messaging may perform better for fast-scaling startups due to urgency
 - A/B tested outreach strategy
 - Scalable and reproducible workflow
 
-## 🔮 Future Improvements
+##  Future Improvements
 
 - Real-time data updates
 - CRM integration (e.g., Salesforce)
