@@ -1,0 +1,267 @@
+P95.AI — Intelligent Lead Qualification & Outbound System
+Product Documentation
+________________________________________
+1. Overview
+P95.AI is an enterprise-grade outbound intelligence platform designed to streamline lead generation, qualification, scoring, and outreach automation.
+The system transforms raw prospect data into high-quality, outreach-ready leads through a structured pipeline powered by configurable ICP logic, transparent scoring, and automated messaging workflows.
+This platform is built for GTM teams that require:
+•	Signal-driven targeting
+•	Scalable outbound workflows
+•	Transparent decision systems
+•	Clean, actionable UI
+________________________________________
+2. Core System Workflow
+The platform operates across a structured lifecycle:
+1.	Lead Sourcing (200+ prospects)
+2.	Data Enrichment
+3.	ICP-Based Qualification
+4.	Scoring & Grading
+5.	Outreach Generation
+6.	Engagement Tracking (Analytics)
+Each stage is modular, configurable, and visible within the admin interface.
+________________________________________
+
+
+3. Platform Architecture
+
+3.1 ICP Configuration Engine
+Admins define Ideal Customer Profile using structured dropdown-based controls:
+Inputs:
+•	Industries (multi-select + priority)
+•	Regions (multi-select + tiering)
+•	Company Size
+•	Revenue Range
+•	Company Maturity
+•	Engineering Team Size
+Output:
+Filtered qualification criteria used in scoring + pipeline filtering.
+________________________________________
+3.2 Lead Pipeline (4-Stage System)
+Stage 1: Source Collection
+•	Clay Tables
+•	Apollo
+Tracks source contribution.
+________________________________________
+Stage 2: Enrichment Layer
+Adds:
+•	Emails
+•	Job Titles
+•	Tech Stack Signals
+•	Revenue Data
+•	Hiring Signals
+Displays enrichment coverage
+
+Stage 3: Qualification Layer
+Applies:
+•	ICP filters
+•	Signal detection
+•	Score logic
+Outputs:
+•	Qualified Leads
+•	Rejected Leads
+•	Pending Leads
+________________________________________
+Stage 4: Outreach-Ready Leads
+Segmented into:
+•	Hot
+•	Warm
+•	Cold
+________________________________________
+3.3 Lead Scoring Engine
+Admin-configurable scoring model.
+Signal Categories:
+•	Firmographic Fit
+•	Technographic Signals
+•	Hiring Velocity
+•	Growth Indicators
+•	Compliance Exposure
+Example Score Breakdown:
+•	Company Size Match: +15
+•	ML Hiring: +18
+•	Funding Event: +20
+•	Industry Match: +22
+•	Stack Fit: +10
+Total Score: 85 (Hot Lead)
+________________________________________
+Score Thresholds:
+•	Hot: 80–100
+•	Warm: 50–79
+•	Cold: 0–49
+________________________________________
+3.4 Criteria Qualification Engine
+Allows filtering leads by specific signal combinations.
+Example:
+Funding + ML Hiring + Healthcare → returns high-intent leads.
+Displays:
+•	Lead Name
+•	Criteria Matched
+•	Score Contribution
+•	Tier
+________________________________________
+3.5 Score Simulation Mode
+Admins can simulate scoring changes without altering live data.
+Example:
+•	ML Hiring Weight: 18 → 25
+Dashboard updates instantly for scenario analysis.
+________________________________________
+
+
+
+
+
+3.6 Outreach Automation System
+Default Behavior:
+•	Auto-generates cold email for qualified leads
+•	Uses dynamic tokens:
+o	{{company_name}}
+o	{{hiring_signal}}
+o	{{funding_event}}
+o	{{tech_stack_signal}}
+
+Editing Workflow:
+•	Each email includes ✏ Edit icon
+•	Opens inline modal editor
+•	Editable fields:
+o	Subject
+o	Body
+o	CTA
+o	Tone
+o	Length
+________________________________________
+Workflow:
+Lead Qualified → Email Generated → Edit → Save → Send
+________________________________________
+3.7 A/B Testing Panel
+Supports experimentation across top 20 leads.
+Features:
+•	Variant A vs Variant B
+•	Edit / Duplicate / Rename
+•	Predicted response insights
+•	Hypothesis display
+________________________________________
+
+3.8 Analytics Engine
+Minimal and actionable.
+Metrics:
+•	Emails Sent
+•	Replies
+________________________________________
+3.9 Lead Table
+Displays 200+ enriched leads.
+Features:
+•	Search
+•	Sort
+•	Filters
+•	Tier segmentation
+•	Signal visibility
+________________________________________
+4. UI/UX System
+Design Principles:
+•	Rounded cards
+•	Minimal clutter
+•	High readability
+•	Graphical representation
+________________________________________
+Navigation Menu:
+•	Overview
+•	ICP Configuration
+•	Lead Pipeline
+•	Scoring Engine
+•	Outreach Engine
+•	Analytics
+•	History panel
+•	Admin services
+________________________________________
+Transitions:
+•	Smooth fade transitions
+•	Panel slide animations
+•	Hover micro-interactions
+•	Modal easing
+________________________________________
+5. Privacy & Security
+•	Only aggregated analytics visible
+•	No raw enrichment exposure
+•	Lead-level privacy preserved
+•	Secure data segmentation
+________________________________________
+6. Technical Architecture
+Suggested Tech Stack
+Frontend:
+•	Vite+React+TS
+•	Tailwind CSS
+Backend:
+•	Node.js / Python (FastAPI)
+•	GraphQL / REST APIs
+Data & Automation:
+•	Clay
+•	PostgreSQL
+Integrations:
+•	Apollo API
+•	LinkedIn Sales Navigator
+•	Crunchbase API
+•	BuiltWith API
+AI Layer:
+•	OpenAI / LLM APIs for outreach generation
+Analytics:
+•	Lightweight chart libraries (Recharts / Chart.js)
+________________________________________
+7. Workflow Automation
+System is designed to integrate with Clay workflows:
+•	Lead ingestion automation
+•	Enrichment pipelines
+•	Trigger-based qualification
+•	Outreach generation pipelines
+________________________________________
+8. Documentation Structure
+This system can be extended using:
+•	Modular scoring rules
+•	Custom ICP templates
+•	API-based enrichment extensions
+•	Workflow automation scripts
+________________________________________
+9. Team Details 
+•	Team Name: ERROR 404
+
+•	Members: 
+o	SRI HARINI S.
+o	SRI LUXME.G
+o	RANJHANI.NR
+o	SRI HARIHARAN G.
+
+
+•	Roles: 
+o	SRI HARINI S. - Team Leader
+o	RANJHANI.NR – Prompting
+o	SRI HARIHARAN G. – UI/UX
+o	SRI LUXME.G - Tester
+
+•	Contact Info: +91 63852 91400
+________________________________________
+
+10. Project Resources
+GitHub Repository:
+•	Repo Link: https://github.com/irss2s1908-jpg/VORTEX
+________________________________________
+Workflow:
+•	Internal Workflow Doc:
+ Data Sources → Clay → Enrichment → Scoring → Outreach → Results
+________________________________________
+11. Success Metrics
+The system is considered successful when:
+•	200+ leads are enriched and processed
+•	ICP filters operate dynamically
+•	Scoring is transparent and configurable
+•	Outreach is auto-generated and editable
+•	Analytics remains minimal and actionable
+•	UI transitions are smooth and intuitive
+________________________________________
+
+12. Final Notes
+This system is designed not as a dashboard—but as a decision engine for outbound growth.
+It prioritizes:
+•	clarity over clutter
+•	control over automation chaos
+•	signal over noise
+________________________________________
+End of Documentation
+
